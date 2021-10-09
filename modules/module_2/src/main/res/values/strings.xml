@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- KeysFragment -->
+    <string name="key_category">Управление ресурсами</string>
+    <string name="keys_fragment">Ключи</string>
+    <string name="keys_issue">Выдать ключи</string>
+    <string name="keys_return">Сдать ключи</string>
+    <string name="key_info">Просмотр деталей ключа</string>
+
+    <!-- KeysIssueFragment -->
+    <string name="whom_issue_keys">Кому выдать ключи</string>
+    <string name="btn_keys_issue">Выдать ключи</string>
+    <string name="whom_issue_keys_hint">Кому выдать</string>
+    <string name="btn_select_issue_keys_employee">Выбрать кому выдать ключи</string>
+
+    <!-- KeysReturnFragment -->
+    <string name="whom_return_keys">Кто сдаёт ключи</string>
+    <string name="btn_keys_return">Сдать ключи</string>
+    <string name="btn_keys_return_employee">Кто сдает ключи</string>
+    <string name="whom_return_keys_hint">Кому выдан: %s</string>
+    <string name="btn_select_return_keys_employee">Выбрать сдающего ключи</string>
+
+    <!-- DetailKeyFragment -->
+    <string name="key_info_name">Имя ключа</string>
+    <string name="key_info_status">Статус</string>
+    <string name="key_info_whom_issued">Кому выдан</string>
+    <string name="key_info_issued_by_whom">Кем выдан</string>
+    <string name="key_info_date_of_issue">Дата и время выдачи</string>
+    <string name="key_info_availability">Доступность</string>
+    <string name="key_info_employee_persons">Список ответственных</string>
+
+    <!-- AttentionDialog -->
+    <string name="attention">Внимание!</string>
+    <string name="attention_cancel">отмена</string>
+    <string name="attention_issue">выдать</string>
+    <string name="attention_return">сдать</string>
+    <string name="attention_keys_issue_message">Выбранные ключи (%sшт) будут %s %s</string>
+    <string name="attention_keys_return_message">Выбранные ключи (%sшт) будут %s %s</string>
+    <string name="will_issue">выданы</string>
+    <string name="will_return">сданы</string>
+
+    <!-- Key status -->
+    <string name="not_assigned">Ответственные сотрудники не назначены</string>
+    <string name="ready_for_issue">Готов для выдачи</string>
+    <string name="issued">Выдан</string>
+    <string name="locked">Заблокирован</string>
+
+    <!-- Key errors -->
+    <string name="key_issuance_error">Ошибка выдачи ключа</string>
+    <string name="keys_issued_success">Ключи выданы успешно</string>
+    <string name="this_key_has_already_been_scanned">Данный ключ уже отсканирован</string>
+    <string name="this_key_cannot_be_issued">Данный ключ не может быть выдан</string>
+    <string name="this_key_cannot_be_returned">Данный ключ не может быть сдан</string>
+
+    <!-- Other -->
+    <string name="scan_key">Отсканируйте бирку ключа</string>
+    <string name="scan_employee_pass">Отсканируйте пропуск</string>
+
+</resources>

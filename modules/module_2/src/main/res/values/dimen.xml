@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Размеры элементов. -->
+    <dimen name="attention_dialog_width">320dp</dimen>
+    <dimen name="attention_dialog_height">280dp</dimen>
+    <dimen name="image_preview_size">120dp</dimen>
+    <dimen name="image_menu_size">50dp</dimen>
+    <dimen name="indent_big">32dp</dimen>
+    <dimen name="indent_extra_big">40dp</dimen>
+
+</resources>

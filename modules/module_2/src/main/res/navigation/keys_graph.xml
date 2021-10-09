@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/keys_graph"
+    app:startDestination="@id/keys_menu_fragment">
+
+    <fragment
+        android:id="@+id/keys_menu_fragment"
+        android:name="com.alab.module_2.fragments.KeysMenuFragment"
+        android:label="@string/keys_fragment">
+
+        <action
+            android:id="@+id/action_keys_menu_fragment_to_keys_fragment"
+            app:destination="@id/keys_fragment" />
+        <action
+            android:id="@+id/action_keys_menu_fragment_to_key_details_fragment"
+            app:destination="@id/key_details_fragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/keys_fragment"
+        android:name="com.alab.module_2.fragments.KeysFragment">
+
+        <action
+            android:id="@+id/action_keys_fragment_to_keys_employee_fragment"
+            app:destination="@id/keys_employee_fragment" />
+        <argument
+            android:name="keysTypeAction"
+            app:argType="com.alab.module_2.KeysTypeAction" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/keys_employee_fragment"
+        android:name="com.alab.module_2.fragments.KeysEmployeeFragment">
+        <argument
+            android:name="keysModel"
+            app:argType="com.alab.module_2.models.KeysModel" />
+        <argument
+            android:name="keysTypeAction"
+            app:argType="com.alab.module_2.KeysTypeAction" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/key_details_fragment"
+        android:name="com.alab.module_2.fragments.KeyDetailFragment"
+        android:label="@string/key_info" />
+
+</navigation>

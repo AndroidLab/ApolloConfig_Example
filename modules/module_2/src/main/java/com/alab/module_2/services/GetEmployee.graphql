@@ -1,0 +1,11 @@
+query GetEmployee($id: String) {
+    employee(id: $id) {
+        id,
+        fullName,
+        personnelNumber,
+        workStatus {
+            beginDate,
+            endDate
+        }
+    }
+}
